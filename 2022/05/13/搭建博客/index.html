@@ -6,22 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hexo</title>
+  <title>搭建博客 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="搭建个人博客–使用hexostep1：安装Node.js 网址https:&#x2F;&#x2F;nodejs.org&#x2F;  自行下载安装即可 安装可以在命令行查看版本 1node -v  step2:安装hexo 安装hexo需要用npm安装，安装镜像源，使用cnpm提高下载速度 1npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org  查看版本">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/2022/05/13/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:title" content="搭建博客">
+<meta property="og:url" content="http://example.com/2022/05/13/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="搭建个人博客–使用hexostep1：安装Node.js 网址https:&#x2F;&#x2F;nodejs.org&#x2F;  自行下载安装即可 安装可以在命令行查看版本 1node -v  step2:安装hexo 安装hexo需要用npm安装，安装镜像源，使用cnpm提高下载速度 1npm install -g cnpm --registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org  查看版本">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2022-05-13_15-52-46.png">
-<meta property="og:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20220513160114405.png">
-<meta property="article:published_time" content="2022-05-13T02:27:40.950Z">
-<meta property="article:modified_time" content="2022-05-13T08:06:57.711Z">
+<meta property="og:image" content="http://example.com/2022/05/13/images/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220513162626364.png">
+<meta property="article:published_time" content="2022-05-13T09:00:06.000Z">
+<meta property="article:modified_time" content="2022-05-13T09:01:30.515Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2022-05-13_15-52-46.png">
+<meta name="twitter:image" content="http://example.com/2022/05/13/images/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220513162626364.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -157,8 +156,23 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-搭建个人博客" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-搭建博客" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      搭建博客
+    </h1>
+  
+
+        
+        <a href="/2022/05/13/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
+  	<time datetime="2022-05-13T09:00:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-05-13</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -233,18 +247,15 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
 <h2 id="Typora-hexo博客中插入图片"><a href="#Typora-hexo博客中插入图片" class="headerlink" title="Typora+hexo博客中插入图片"></a>Typora+hexo博客中插入图片</h2><p>使用hexo搭建博客，使用Typora来编辑博客内容。</p>
-<p>但有个问题是，之前一直是在本地使用Typora编码markdown文件，图片是保存在本地的，具体设置如下</p>
-<img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Snipaste_2022-05-13_15-52-46.png" alt="Snipaste_2022-05-13_15-52-46" style="zoom: 67%;" />	
-
-<p>这样部署到博客后无法查看图片，因此需要进行相关设置，关于图片和图片路径的设置，有以下教程。</p>
+<p>但有个问题是，之前一直是在本地使用Typora编码markdown文件，图片是保存在本地的，这样部署到博客后无法查看图片，因此需要进行相关设置，关于图片和图片路径的设置，有以下教程。</p>
 <p>已知博客文件均保存在 <code>hexo/source/_posts/</code>文件夹下</p>
 <p>首先在 <code>hexo/source</code>目录下建一个文件夹叫images，用来保存博客中的图片。</p>
 <p>然后打开Typora的 <code>文件 &gt; 偏好设置</code>，进行如下设置。</p>
-<img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/image-20220513160114405.png" alt="image-20220513160114405" style="zoom:67%;" />	
+<img src="../images/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20220513162626364.png" alt="image-20220513162626364" style="zoom: 80%;" />	
 
 <p>这样的话所有的博客中的图片都将会保存到 <code>/source/images/该博客md文件名/图片名称</code></p>
 <p>但是仅仅这样设置还不够，这样设置在typora中倒是能看图片了，但是使用的却是相对于当前md文件的相对路径，可是如果启动hexo，是要用服务器访问的，而服务器显然无法根据这个相对路径正确访问到图片，因此还需要在typora中进行进一步设置。</p>
-<p>在typora菜单栏点击 <code>格式-&gt;图像-&gt;设置图片根目录</code>，将<code>hexo/source</code>作为其根目录即可。</p>
+<p>在typora菜单栏点击 <code>格式-&gt;图像-&gt;设置图片根目录</code>，将<code>blog/source</code>作为其根目录即可。</p>
 <p><strong>一定要先设置了图片根目录后再插入图片，否则图片路径会不正确！</strong></p>
 
       
@@ -325,7 +336,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/05/13/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/05/13/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" alt="微信分享二维码">
     </div>
 </div>
 
